@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #002415;
+    background: linear-gradient(27deg, rgba(0, 36, 21, 1) 0%, rgba(14, 78, 161, 1) 43%, rgba(255, 47, 0, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 550px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+#image1{
+    height: 150px;
+    width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.inbox{
+    /* background-color: gray; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1{
+    height: 50px;
+    width: 280px;
+    background-color:paleturquoise;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box2{
+    height: 50px;
+    width: 280px;
+    background-color:darkblue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph p{
+    text-align: center;
+    /* font-weight: bold; */
+}
+.paragraph{
+    
+    height: 50px;
+    width: 300px;
+}
+.box2 p{
+    color: aliceblue;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.side1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#footerofbox{
+    font-weight: bold;
+}
+@media (max-width: 350px){
+    .box1{
+        height: 120px;
+        width: 100px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .side1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .plan p{
+        text-align: center;
+    }
+}
